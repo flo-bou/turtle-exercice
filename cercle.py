@@ -22,7 +22,7 @@ def circle_with_dot(turtle, perimeter):
 # représentation du cercle en tant que polygone régulier
 def circle_as_polygon(turtle, perimeter):
     nb_cote = 50 # change value for different polygons : 4 = square, 6 = hexagon ...
-    angle_interne = (nb_cote - 2) * pi / nb_cote
+    angle_interne = (nb_cote - 4) * pi / nb_cote
     largeur_cote = perimeter / nb_cote
 
     turtle.penup()
