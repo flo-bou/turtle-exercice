@@ -36,3 +36,5 @@ def circle_as_polygon(turtle, perimeter):
 
     turtle.penup()
     turtle.degrees()
+
+print('Hello Florent le professeur')
